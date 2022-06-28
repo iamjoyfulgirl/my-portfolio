@@ -17,6 +17,6 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-* URL of the deployed application: 
+* URL of the deployed application: https://iamjoyfulgirl.github.io/my-portfolio/
 * URL of the GitHub repository: https://github.com/iamjoyfulgirl/my-portfolio
 
