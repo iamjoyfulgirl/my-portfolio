@@ -93,15 +93,6 @@ contact-content a {
   text-align: right;
 }
 
-/* .hero {
-  height: 120px;
-  width: 100%;
-  margin-bottom: 0px;
-  background-image: url("../images/webdev-hero.png");
-  background-size: cover;
-  background-position: center;
-} */
-
 .img-me {
   flex: 1;
   margin-top: 15px;
@@ -109,7 +100,6 @@ contact-content a {
   float: left;
   flex-wrap: wrap-reverse;
   display: inline-block;
-  /* flex-direction: column; */
 }
 
 .grid-container > div {
@@ -144,11 +134,7 @@ contact-content a {
   font-size: 30px;
   text-align: right;
   padding: 10px;
-  /* display: inline-block; */
-  /* flex-direction: row; */
-  /* display: flex; */
   flex-wrap: wrap;
-  /* flex-direction: row; */
   margin-right: -1.5rem;
   display: flex;
   flex-direction: column;
