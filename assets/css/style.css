@@ -151,7 +151,7 @@ contact-content a {
   background-color: white;
   border: 1px solid
     var(--prussian-blue-2);
-  color: var(--prussian-blue-2);
+  color: var(--prussian-blue);
   padding: 50px 20px 50px 20px;
   font-size: 20px;
   text-align: justify;
@@ -161,6 +161,7 @@ contact-content a {
 .work-content,
 .work-content2 {
   background-image: url(../images/portfolio-bkgrd.png);
+  color: var(--prussian-blue);
 }
 
 .work-content-img {
