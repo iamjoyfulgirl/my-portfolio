@@ -102,9 +102,6 @@ contact-content a {
   display: inline-block;
 }
 
-.grid-container > div {
-}
-
 .grid-container {
   display: grid;
   gap: 10px 5px;
@@ -122,12 +119,14 @@ contact-content a {
 
 .about-me,
 .work,
+.work2,
 .contact {
   grid-column-start: 1;
   grid-column-end: 2;
   background-color: var(
     --violet-blue-crayola
   );
+
   border: 1px solid
     var(--prussian-blue-2);
   padding-right: 15px;
@@ -145,6 +144,7 @@ contact-content a {
 
 .about-content,
 .work-content,
+.work-content2,
 .contact-content {
   grid-column-start: 2;
   grid-column-end: 4;
@@ -158,21 +158,27 @@ contact-content a {
   justify-content: flex-start;
 }
 
+.work-content,
+.work-content2 {
+  background-image: url(../images/portfolio-bkgrd.png);
+}
+
 .work-content-img {
-  flex: 1;
+  /* flex: 1; */
   margin-top: 15px;
   margin-right: 10px;
   float: left;
-  /* flex-wrap: wrap-reverse; */
   flex-direction: column;
-  display: inline-block;
+  display: flex;
 }
 
 .contact-content a {
+  display: flex;
+  flex-direction: row;
   color: var(--lapis-lazuli);
-  padding: 50px;
+  /* padding: 50px; */
   text-decoration: underline;
-  text-align: right;
+  /* text-align: right; */
 }
 
 footer {
@@ -184,10 +190,14 @@ footer {
 }
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   main,
   nav,
   .content {
     flex-direction: column;
+  }
+  #work-img {
+    size: 500px;
+    overflow: hidden;
   }
 }
