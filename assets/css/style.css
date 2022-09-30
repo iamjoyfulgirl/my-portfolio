@@ -120,6 +120,7 @@ contact-content a {
 .about-me,
 .work,
 .work2,
+.work3,
 .contact {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -145,6 +146,7 @@ contact-content a {
 .about-content,
 .work-content,
 .work-content2,
+.work-content3,
 .contact-content {
   grid-column-start: 2;
   grid-column-end: 4;
@@ -159,7 +161,8 @@ contact-content a {
 }
 
 .work-content,
-.work-content2 {
+.work-content2,
+.work-content3 {
   background-image: url(../images/portfolio-bkgrd.png);
   color: var(--prussian-blue);
 }
